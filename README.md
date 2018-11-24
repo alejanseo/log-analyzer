@@ -2,7 +2,7 @@
 <h2>Importa i log access del tuo server in un database MySQL</h2>
 
 Questo script in PHP ti consente di importare i dati degli accessi al tuo server all'interno di un database MySQL.
-Su tale database potrai effettuare delle utilissime analisi utilizzando i connettori MySQL di Data Studio. Per crearti uno storico appfofindito di tutti gli accessi lo script va eseguito ogni giorno con un cron-job.
+Su tale database potrai effettuare delle utilissime analisi utilizzando i connettori MySQL di Data Studio. Per crearti uno storico appfofindito di tutti gli accessi lo script va eseguito ogni giorno con un cron-job. Nel corso del tempo, otterrai così, un'infinità di dati da poter analizzare.
 
 <h2>Cosa analizzare con Data Studio</h2>
 Per prima cosa Data Studio ti permette di effettuare un'analisi delle richieste dai differenti user-agent, immagino ti vorrai soffermare su Googlebot e le <a href="https://support.google.com/webmasters/answer/1061943?hl=it">diverse varianti</a>.
