@@ -1,5 +1,5 @@
 <?php
-// inserisco i valori per connettermi al server 
+// definisco i valori del server 
 $login = 'username';
 $password = 'password';
 $host = "nome_host";
