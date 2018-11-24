@@ -1,11 +1,11 @@
 # log analyzer
 <h2>Importa i log access del tuo server in un database MySQL</h2>
 
-Questo script in PHP consente di importare i dati (log access) degli accessi al tuo server Apache all'interno di un database MySQL.
+Questo script in PHP ti consente di importare i dati degli accessi al tuo server Apache all'interno di un database MySQL.
 Su tale database potrai effettuare delle utilissime analisi utilizzando i connettori MySQL di Data Studio. Per crearti uno storico appfofindito di tutti gli accessi lo script va eseguito ogni giorno con un cron-job.
 
 <h2>Cosa analizzare con Data Studio</h2>
-Per prima cosa Data Studio ti permette di effettuare un'analisi delle richieste dai differenti user-agent, immagino ti vorrai soffermare su Googlebot e le diverse varianti quali Smartphone e Immagini.
+Per prima cosa Data Studio ti permette di effettuare un'analisi delle richieste dai differenti user-agent, immagino ti vorrai soffermare su Googlebot e le <a href="https://support.google.com/webmasters/answer/1061943?hl=it">diverse varianti</a>.
 Inoltre potrai raggruppare e aggregare i dati in base a delle regole di regex come ad esempio tutti i file che terminano con .js .css. oppure path di categorie di url.
 
 Qui un valido <a href="https://datastudio.google.com/open/0B4XIs_msfiVTaUdubExIREZkdTQ">esempio</a>
