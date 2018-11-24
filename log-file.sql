@@ -1,11 +1,4 @@
--- phpMyAdmin SQL Dump
--- version 4.1.7
--- http://www.phpmyadmin.net
---
--- Host: web-lnx240.ergonet.host
--- Generation Time: Nov 24, 2018 alle 09:42
--- Versione del server: 10.1.35-MariaDB
--- PHP Version: 5.6.23
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
