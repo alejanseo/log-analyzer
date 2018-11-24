@@ -12,6 +12,7 @@ Qui un valido <a href="https://datastudio.google.com/open/0B4XIs_msfiVTaUdubExIR
 
 <h2>Struttura di MySQL</h2>
 Nello script ho identificato 9 campi quali:
+
 - IP: inserisce l'indirizzo IP della richiesta;
 - request: Tipologia di richiesta effettuata ( POST, GET, HEAD...);
 - url: URL richiesta;
