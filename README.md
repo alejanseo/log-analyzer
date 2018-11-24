@@ -14,7 +14,7 @@ Qui un valido <a href="https://datastudio.google.com/open/0B4XIs_msfiVTaUdubExIR
 Nello script ho identificato 9 campi quali:
 
 - IP: inserisce l'indirizzo IP della richiesta;
-- request: Tipologia di richiesta effettuata ( POST, GET, HEAD...);
+- request: Tipologia di richiesta effettuata ( POST, GET, HEAD);
 - url: URL richiesta;
 - status: status code che ha risposto il server alla singola richiesta;
 - bite: numero di byte trasferiti;
