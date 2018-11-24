@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `log-file` (
   `request` text NOT NULL,
   `url` text NOT NULL,
   `status` text NOT NULL,
-  `referal` text NOT NULL,
+  `referral` text NOT NULL,
   `uagent` text NOT NULL,
   `date` date NOT NULL,
   `hit` int(11) NOT NULL DEFAULT '1'
