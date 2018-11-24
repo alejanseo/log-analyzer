@@ -11,13 +11,13 @@ Inoltre potrai raggruppare e aggregare i dati in base a delle regole di regex co
 Qui un valido <a href="https://datastudio.google.com/open/0B4XIs_msfiVTaUdubExIREZkdTQ">esempio</a>
 
 <h2>Struttura di MySQL</h2>
-Lo script va a definire 9 campi che troverai poi nel database:
+Lo script va a definire 9 stringhe per poi inserirel nei campi del db. Tali stringhe sono:
 
-- IP: inserisce l'indirizzo IP della richiesta;
+- ip: inserisce l'indirizzo IP della richiesta;
 - request: Tipologia di richiesta effettuata (POST, GET, HEAD);
-- url: URL richiesta;
+- url: singolo percorso richiesto;
 - status: status code che ha risposto il server alla singola richiesta;
 - bite: numero di byte trasferiti;
 - referral: origine della visita - Google però non ha referral ;-); 
-- useragent: Nome dell'user agent della singola richiesta;
-- date: La data della singola richiesta.
+- useragent: nome dell'user agent della singola richiesta;
+- date: data della singola richiesta.
