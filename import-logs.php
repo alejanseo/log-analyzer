@@ -79,13 +79,13 @@ while (!feof($apri)) {
 	echo "</h1>";
 	//ok, adesso inseriamo i dati raccolti nela database    
 	//connessione al db
-	$conn = new mysqli ('localhost','alelog','specialist','logs');
+	$conn = new mysqli ('nome-host','user','password','nome-db');
 	// definisco le query con i valori
-	$sql = "INSERT INTO  allog (ip, date, request, url, status, bite, referal, uagent) VALUES ('$ip', '$giorno', '$request', '$url', '$status', '$bite', '$ref', '$useragent_')" ;
+	$sql = "INSERT INTO  nome-tabella (ip, date, request, url, status, bite, referal, uagent) VALUES ('$ip', '$giorno', '$request', '$url', '$status', '$bite', '$ref', '$useragent_')" ;
 	//poiché il file di log ha sempre l'ultima riga vuota MySQL andrà ad inserire in tale campo un valore 19700101 - con questa query andremo a rimuoverla
-	$sql_ = "DELETE FROM `allog` WHERE `date`=19700101";
+	$sql_ = "DELETE FROM `nome-tabella` WHERE `date`=19700101";
 	//con tale stringa rimuoveremo le richieste di questo file
-	$sql__= "DELETE FROM `allog` WHERE `url` REGEXP '.*logs.php'";
+	$sql__= "DELETE FROM `nome-tabella` WHERE `url` REGEXP '.*logs.php'";
 	//eseguo le 3 query con php
 	$conn->query($sql);
 	$conn->query($sql_);
