@@ -11,7 +11,7 @@ Inoltre potrai raggruppare e aggregare i dati in base a delle regole di regex co
 Qui un valido <a href="https://datastudio.google.com/open/0B4XIs_msfiVTaUdubExIREZkdTQ">esempio</a>
 
 <h2>Struttura di MySQL</h2>
-Lo script va a definire 9 stringhe per poi inserirel nei campi del db. Tali stringhe sono:
+Lo script va a definire 9 stringhe per poi inserirle nei campi del db. Tali stringhe sono:
 
 - ip: inserisce l'indirizzo IP della richiesta;
 - request: Tipologia di richiesta effettuata (POST, GET, HEAD);
