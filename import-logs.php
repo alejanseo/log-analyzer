@@ -77,7 +77,7 @@ while (!feof($apri)) {
 	echo "<h1>useragent:";
 	echo $useragent_;
 	echo "</h1>";
-	//ok, adesso inseriamo i dati raccolti nela database    
+	//ok, adesso inseriamo i dati raccolti nel database    
 	//connessione al db
 	$conn = new mysqli ('nome-host','user','password','nome-db');
 	// definisco le query con i valori
