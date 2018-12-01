@@ -20,7 +20,7 @@ while (!feof($apri)) {
 	$contenuto = fgets($apri);
 	//distinguo i contenuti usando come separatore lo spazio
 	$elementi = (explode(" ", $contenuto));
-	//stampo la array così vedo i contenuti nel browser
+	//stampo la array così vedo cosa ha definito
 	var_dump( explode( ' ', $contenuto) );
 	// definisco la stringa indirizzo IP
 	$ip = $elementi[0];
