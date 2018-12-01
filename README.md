@@ -7,6 +7,7 @@ Su tale database potrai effettuare delle utilissime analisi utilizzando i connet
 <h2>Cosa analizzare con Data Studio</h2>
 Per prima cosa Data Studio ti permette di effettuare un'analisi delle richieste dai differenti user-agent, immagino ti vorrai soffermare su Googlebot e le <a href="https://support.google.com/webmasters/answer/1061943?hl=it">diverse varianti</a>.
 Inoltre potrai aggregare i dati in base a delle regole di regex come ad esempio tutti i file che terminano con .js .css. oppure path di categorie di url.
+Esempio di <a href="https://datastudio.google.com/open/0B4XIs_msfiVTaUdubExIREZkdTQ">cosa puoi analizzare</a>
 
 <h2>Struttura di MySQL</h2>
 Lo script va a definire 9 stringhe per poi inserirle nei campi del db. Tali stringhe sono:<br>
