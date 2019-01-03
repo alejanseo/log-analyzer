@@ -22,3 +22,4 @@ Lo script va a definire 9 stringhe per poi inserirle nei campi del db. Tali stri
 
 Attualmente il tool analizza tutte le righe del file di log dunque se ci sono moltissimi eventi ci potrebbe impiegare diverso tempo. Valutare dunque anche le impostazioni del server sul timeout. 
 Nel futuro cercherò di limitare il lavoro ogni 5k righe. 
+<b>Considerate</b> che il database che andrete ad utilizzare dovrà avere la possiilità di accesso da remoto. Se avete un firewall potete limitare l'accesso agli indirizzi IP qui elencati: <a href="https://support.google.com/datastudio/answer/7088031?hl=it">Indirizzi IP Connettore MySQL</a>
